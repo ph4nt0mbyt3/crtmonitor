@@ -20,14 +20,25 @@ This will download, compile, and place the crtmonitor binary in your $GOPATH/bin
 
 # Usage:
 
-1- Basic Usage:
+1- Help
+
+```
+crtmonitor -h
+Usage of ./crtmonitor:
+  -domain string
+        Domain identity to check
+  -monitor
+        Enable monitoring mode
+```
+
+2- Basic Usage:
 Fetch and display all subdomains of a given domain:
 
 ```
 crtmonitor -domain example.com
 ```
 
-2-Monitoring Mode:
+3-Monitoring Mode:
 Compare current subdomains with a saved list and detect new ones:
 
 ```
