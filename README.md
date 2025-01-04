@@ -46,4 +46,4 @@ crtmonitor -domain example.com -monitor
 ```
 
 While crtmonitor is a powerful tool, it relies on crt.sh, a third-party service. As a result:
-Errors: Occasional errors or downtime from crt.sh could affect the tool's functionality.
+Occasional errors or downtime from crt.sh could affect the tool's functionality.
