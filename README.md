@@ -45,5 +45,5 @@ Compare current subdomains with a saved list and detect new ones:
 crtmonitor -domain example.com -monitor
 ```
 
-While crtmonitor is a powerful tool, it relies on crt.sh, a third-party service. As a result:
+While crtmonitor it relies on crt.sh, a third-party service. As a result:
 Occasional errors or downtime from crt.sh could affect the tool's functionality.
